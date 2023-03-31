@@ -58,8 +58,7 @@
                 {
                     "type" : "git",
                     "url" : "https://gitlab.com/gregorni/asciiimages",
-                    "tag" : "1.0.1",
-                    "commit" : "12610f1803ee8f4b8e1f79e41f8187d5471b3a22"
+                    "commit" : "1add0b0689aaf218492ba598ed122bd6df3d8189"
                 }
             ]
         }
