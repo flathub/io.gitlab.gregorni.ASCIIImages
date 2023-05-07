@@ -3,7 +3,7 @@
     "runtime" : "org.gnome.Platform",
     "runtime-version" : "44",
     "sdk" : "org.gnome.Sdk",
-    "command" : "asciiimages",
+    "command" : "letterpress",
     "finish-args" : [
         "--share=ipc",
         "--socket=fallback-x11",
@@ -51,15 +51,15 @@
             ]
         },
         {
-            "name" : "asciiimages",
+            "name" : "letterpress",
             "builddir" : true,
             "buildsystem" : "meson",
             "sources" : [
                 {
                     "type" : "git",
-                    "url" : "https://gitlab.com/gregorni/asciiimages",
-                    "tag" : "1.2.0",
-                    "commit" : "f4b77821c3b36be77e493a90f8de4208436d2244"
+                    "url" : "https://gitlab.com/gregorni/letterpress",
+                    "tag" : "1.3.0",
+                    "commit" : "4e4413ba355ce883283ad2fb95e0b781e2177ec8"
                 }
             ]
         }
